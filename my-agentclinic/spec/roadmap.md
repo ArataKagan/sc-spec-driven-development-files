@@ -2,8 +2,8 @@
 
 Small, thin, vertical slices — each phase should leave something real and clickable/callable, touching data, API, and UI together rather than building one layer at a time.
 
-## Phase 0 — Hello, Clinic
-Scaffold the Fastify + TypeScript server. One route (`GET /health`) returns a status message. Confirms the project runs end to end.
+## Phase 0 — Hello, Clinic ✅ Complete
+Scaffold the Fastify + TypeScript server. `GET /health` returns a status message, and `GET /` serves a basic server-rendered welcome page ("AgentClinic is open for business."). Confirms the project runs end to end, from server to browser.
 
 ## Phase 1 — First Ailment
 Hard-code a single ailment. `GET /ailments` returns it as JSON, and a bare dashboard page lists it. Proves the data-to-UI path works.
